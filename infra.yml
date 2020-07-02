@@ -288,7 +288,6 @@ Resources:
                     aws s3 cp s3://ahmed-udacity-project/udacity.zip .
                     unzip -o udacity.zip
             ImageId: ami-003634241a8fcdec0
-            KeyName: ahmed
             IamInstanceProfile: !Ref ProfileWithRolesForOurApp
             SecurityGroups:
             -   Ref: WebServerSecurityGroup
